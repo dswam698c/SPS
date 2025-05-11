@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Page-1" id="BECqvl3VT9lfQXmkNtaU">
-    <mxGraphModel dx="1603" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,10 +99,10 @@
             <mxPoint x="1483" y="674" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-481" value="Parallel Picking" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pflW-3yKm34LbVUq-xgN-481" value="Group Picking" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1444" y="573" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-482" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pflW-3yKm34LbVUq-xgN-482" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1484" y="660" width="30" height="12" as="geometry" />
         </mxCell>
         <mxCell id="pflW-3yKm34LbVUq-xgN-483" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-484">
@@ -131,29 +131,6 @@
         </mxCell>
         <mxCell id="pflW-3yKm34LbVUq-xgN-488" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1488" y="363" width="40" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-489" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1483" y="800" as="sourcePoint" />
-            <mxPoint x="1483" y="830" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-490" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1483" y="860" as="sourcePoint" />
-            <mxPoint x="1483" y="880" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-492" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1484" y="810" width="30" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-493" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="pflW-3yKm34LbVUq-xgN-494">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1469" y="1165" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-494" value="Notify Team Leader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1399" y="1115" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pflW-3yKm34LbVUq-xgN-496" value="Scan Empty Cart to confirm Mapping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1424" y="380" width="120" height="30" as="geometry" />
@@ -906,11 +883,94 @@
         <mxCell id="pflW-3yKm34LbVUq-xgN-445" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pflW-3yKm34LbVUq-xgN-499" source="pflW-3yKm34LbVUq-xgN-431" target="pflW-3yKm34LbVUq-xgN-394">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-501" value="Pick the Part and Turn off PTL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pflW-3yKm34LbVUq-xgN-501" value="Turn the PTL on both Sides" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1424" y="672" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pflW-3yKm34LbVUq-xgN-502" value="One Picker finished early" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1436" y="720" width="92" height="84" as="geometry" />
+        <mxCell id="pflW-3yKm34LbVUq-xgN-508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-503">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1484" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-503" value="Follow PTL&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-504" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfillColor%3D%23f8cecc%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221518%22%20y%3D%22730%22%20width%3D%2210%22%20height%3D%2210%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1514" y="730" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-517" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-519" target="pflW-3yKm34LbVUq-xgN-521">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-518" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-519" target="pflW-3yKm34LbVUq-xgN-527">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-519" value="One Picked early" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1447" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-520" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-521" target="pflW-3yKm34LbVUq-xgN-523">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-521" value="Update the PDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="845" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-522" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-523" target="pflW-3yKm34LbVUq-xgN-525">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-523" value="Scan the Cart# to link Next Order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-524" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="833" width="30" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-525" value="Follow PTL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-526" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1397" y="980" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-536" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-527" target="pflW-3yKm34LbVUq-xgN-532">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-527" value="Turn off PTL&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-530" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-528" target="pflW-3yKm34LbVUq-xgN-519">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-528" value="Pick and Turn off PTL&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="770" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-529" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="787" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-531" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfillColor%3D%23f8cecc%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221518%22%20y%3D%22730%22%20width%3D%2210%22%20height%3D%2210%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="930" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-532" target="pflW-3yKm34LbVUq-xgN-533">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-532" value="Complete the Order in PDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-538" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-533" target="pflW-3yKm34LbVUq-xgN-534">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-533" value="Check the Picking Status in PDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-539" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-534" target="pflW-3yKm34LbVUq-xgN-535">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-534" value="Confirm in PDA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-540" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pflW-3yKm34LbVUq-xgN-535" target="pflW-3yKm34LbVUq-xgN-525">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-535" value="Unlink the Cart from Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="1120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pflW-3yKm34LbVUq-xgN-541" value="Second Picker will join picking PTL [Blue]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="1314.5" y="1067" width="123" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
